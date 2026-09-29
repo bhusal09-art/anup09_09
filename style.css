@@ -1,0 +1,128 @@
+/* Reset */
+
+
+/* Background */
+body{
+    background-image: url("bg.jpg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* Logo */
+.logo{
+    color: rgb(224, 82, 21);
+    font-size: 40px;
+}
+
+/* Navigation */
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+/* Hero Section */
+p{
+    color: rgb(245,96,2);
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+}
+
+h2{
+    color: rgb(240,96,0);
+    font-size: 35px;
+}
+
+.description{
+    color: white;
+    width: 600px;
+    line-height: 30px;
+}
+
+/* Content */
+main{
+    padding: 80px 50px;
+}
+
+/* Buttons */
+.btn{
+    background: rgb(212,94,15);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: yellow;
+}
+
+.project-btn{
+    background: transparent;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.project-btn:hover{
+    color: orange;
+}
+
+/* Search Box */
+input[type="search"]{
+    padding: 8px 12px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
